@@ -1,0 +1,397 @@
+html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+#main-left-pic {
+    position: absolute;
+    float: left;
+    left: 75px;
+    top: 10px;
+    height: 200px;
+}
+
+#main-left-pic2 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+
+#main-pic {
+    position: absolute;
+    float: left;
+    left: 290px;
+    width: 940px;
+    z-index: 1;
+}
+
+#main-right-pic {
+    position: absolute;
+    float: left;
+    right: 75px;
+    top: 10px;
+    height: 200px;
+}
+
+
+/*********** MENU ************/
+
+.top-bar
+    {
+    position: absolute;
+    padding:235px 290px;
+    }
+
+.top-bar li
+    {
+    display: inline;
+    }
+
+.top-bar li a
+    {
+    display: inline;
+    font-family:Arial;
+    font-size:18px;
+    text-decoration: none;
+    float: left;
+    padding:10px 53px;
+    background-color: #170448;
+    color:#ffffff;
+    border-bottom:1px;
+    border-bottom-color:#000000;
+    border-bottom-style:solid;
+    }
+
+.top-bar li a:hover
+    {
+    background-color:#9B1C26;
+    padding-bottom:2px;
+    border-bottom:2px;
+    border-bottom-color:#000000;
+    border-bottom-style:solid;
+    margin:-1px;
+    }
+
+
+
+    /********** BURCLAR *********/
+    
+    
+    
+    .horoIcon {
+        position: relative;
+        height: 120px;
+        width: 120px;
+        margin: 20px 15px 20px 15px;
+        padding: 5px;
+    }
+
+    
+    .cool-hover {
+        display: inline-block;
+        background-image: linear-gradient(to right, transparent 50%, #7313D3 50%);
+        background-size: 200%;
+        transition: all 0.4s;
+    }
+    
+    .cool-hover:hover {
+        background-position: -100%;
+    }
+    
+    
+    .icon-group{
+        position: absolute;
+        left: 400px;
+        top: 300px;    
+    }
+
+    .Burc-isimleri {
+        position: absolute;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-right: 30px;
+    }
+
+
+
+
+    /***** BURC İNNER İCERİKLERİ*****/
+
+    .horoscope-content {
+        color: white;
+        position: absolute;
+        float: right;
+        right: 10px;
+        left: 1100px;
+        top: 300px;
+        line-height: 180%;
+        font-size: 22px;
+    }
+    
+    .icon-group p {
+        position: relative;
+        left: 15px;
+    }
+
+
+    /********** FOOTER *********/
+    .site-footer {
+        background-color: #fbfcff;
+          position: absolute;
+          text-align: center;
+          top: 1000px;
+          left: 550px;
+      }
+      
+      #social-wrapper {
+          text-align: center;
+      }
+      
+      /*Social Media Icons*/
+      .social-wrapper {
+          text-align: center;
+      }
+      
+      .social-wrapper ul li {
+          display: inline;
+          margin: 0 5px;
+      }
+      
+      .twitter-icon,
+      .facebook-icon,
+      .instagram-icon,
+      .googleplus-icon,
+      .youtube-icon,
+      .foursquare-icon{
+          margin-top: .625em;
+          width: 40px;
+          height: 40px;
+          opacity: .6;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+        border-radius: 25px;
+      }
+      
+      .twitter-icon:hover,
+      .facebook-icon:hover,
+      .instagram-icon:hover,
+      .googleplus-icon:hover,
+      .youtube-icon:hover,
+      .foursquare-icon:hover {
+          opacity: 1.0;
+          filter: alpha(opacity=50); /* For IE8 and earlier */
+      }
+      
+      .footer-nav p {
+          text-align: center;
+      }
+
+
+
+
+      /************ GÜNLÜK BURÇLAR ***********************/
+
+      select{
+        position: absolute;
+        border:1px solid black;
+        width: 400px;
+        
+      }
+      #gunluk-yorum-background{
+        width: 1000px;
+        font-family: "Arial";
+        text-align: center;
+        color:#262626;
+        padding: 270px;
+      }
+      
+      #divbox{
+        border: 3px double black;
+        width: 810px;
+        height: 100px;
+        box-shadow: 5px 5px 10px;
+        padding: 50px;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+      
+      #gunluk-yorum-background { 
+                  background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/204180/aac227c8478a7942e6b8a96cf6f3f1f7e83ddd9b.jpg) ;
+                  background-position: center center;
+                  background-repeat:  no-repeat;
+                  background-attachment: fixed;
+                  background-size:  cover;
+                  background-color: #999;
+        
+      }
+      
+      h2{
+        color: white;
+        font-size: 20px;
+      
+      }
+      
+      #dates{
+        border: 3px double black;
+        width: 900px;
+        height: 220px;
+        box-shadow: 5px 5px 10px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+
+      
+      /***************** FAL BAK ******************/
+      
+.fal-bak-class
+{
+  background: darkorchid;
+  background: linear-gradient(to right, midnightblue, darkorchid);
+  color: white;
+  font-family: TrebuchetMS, Verdana;
+  text-shadow: 2px 2px purple;
+  position: absolute;
+  top: 300px;
+  padding: 100px;
+  right: 480px;
+ 
+}
+
+#fal-bak
+{
+  border: 2px dotted white;
+  background-color:orchid;
+  margin: 10px;
+  padding: 5px;
+}
+
+#kısmetin
+{
+  border: 2px solid white;
+  background-color: darkslateblue;
+  padding: 10px;
+}
+
+#fal-bak-baslik
+{
+  text-shadow:3px 3px purple;
+}
+
+
+
+/*********************** İLETİŞİM ******************/
+
+ 
+.iletisim-class {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 30px;
+    color: #888;
+    background: black;
+   position: relative;
+   padding-top: 1px;
+   top: 300px;
+
+}
+ 
+.iletisim-baslik {
+    max-width: 400px;
+    width: 100%;
+
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact #iletisim-baslik {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid #aaa;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #181167;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: #355C7D;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+ 
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
